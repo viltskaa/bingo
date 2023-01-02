@@ -5,6 +5,7 @@ html, body {
 
 body {
   height: 100vh;
+  background-color: #b5e0fb;
 }
 
 .bg-blue {
@@ -22,8 +23,8 @@ body {
 }
 
 .item {
-  height: 14vw;
-  width: 14vw;
+  height: 14vmin;
+  width: 14vmin;
   cursor: pointer;
   -webkit-user-select: none;
   user-select: none;
