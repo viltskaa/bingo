@@ -1,0 +1,45 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+.bg-blue {
+  background-color: #b5e0fb;
+}
+
+.parent {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  background-color: #27377f;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+  padding: 2vw;
+  display: grid;
+}
+
+.item {
+  height: 14vw;
+  width: 14vw;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  z-index: 1;
+  background-color: #f5abcd;
+  font-size: 1.8vmin;
+  font-weight: bolder;
+}
+
+.item.empty {
+  visibility: hidden;
+}
+
+.item.isReady {
+  background-color: #b5e0fb;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=index.a4d3a4bb.css.map */
